@@ -20,6 +20,7 @@
 		A5A9F31E2696A127004AEA19 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F31D2696A127004AEA19 /* Constant.swift */; };
 		A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F31F269707A1004AEA19 /* FooterView.swift */; };
 		A5A9F32326970AAD004AEA19 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */; };
+		A5A9F32526972B8F004AEA19 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32426972B8F004AEA19 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A5A9F31D2696A127004AEA19 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A5A9F31F269707A1004AEA19 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		A5A9F32426972B8F004AEA19 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				A5A9F31F269707A1004AEA19 /* FooterView.swift */,
 				A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */,
+				A5A9F32426972B8F004AEA19 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A9F2E626969DEE004AEA19 /* ContentView.swift in Sources */,
+				A5A9F32526972B8F004AEA19 /* LogoView.swift in Sources */,
 				A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */,
 				A5A9F2E426969DEE004AEA19 /* touchDownApp.swift in Sources */,
 				A5A9F31E2696A127004AEA19 /* Constant.swift in Sources */,
