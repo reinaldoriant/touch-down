@@ -31,6 +31,7 @@
 		A5D462462697F0900071B495 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462452697F0900071B495 /* SectionView.swift */; };
 		A5D462482697F2890071B495 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462472697F2890071B495 /* TitleView.swift */; };
 		A5D4624A2697F3640071B495 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462492697F3640071B495 /* ProductModel.swift */; };
+		A5D4624C269844D10071B495 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4624B269844D10071B495 /* ProductItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		A5D462452697F0900071B495 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		A5D462472697F2890071B495 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		A5D462492697F3640071B495 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		A5D4624B269844D10071B495 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				A5D462432697EF420071B495 /* CategoryGridView.swift */,
 				A5D462452697F0900071B495 /* SectionView.swift */,
 				A5D462472697F2890071B495 /* TitleView.swift */,
+				A5D4624B269844D10071B495 /* ProductItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				A5A9F2E626969DEE004AEA19 /* ContentView.swift in Sources */,
 				A5A9F32526972B8F004AEA19 /* LogoView.swift in Sources */,
 				A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */,
+				A5D4624C269844D10071B495 /* ProductItemView.swift in Sources */,
 				A5A9F32C2697D9EC004AEA19 /* FeaturedItemView.swift in Sources */,
 				A5A9F2E426969DEE004AEA19 /* touchDownApp.swift in Sources */,
 				A5D462442697EF420071B495 /* CategoryGridView.swift in Sources */,
