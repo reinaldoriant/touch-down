@@ -21,6 +21,10 @@
 		A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F31F269707A1004AEA19 /* FooterView.swift */; };
 		A5A9F32326970AAD004AEA19 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */; };
 		A5A9F32526972B8F004AEA19 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32426972B8F004AEA19 /* LogoView.swift */; };
+		A5A9F3282697D801004AEA19 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F3272697D801004AEA19 /* PlayerModel.swift */; };
+		A5A9F32A2697D84F004AEA19 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F3292697D84F004AEA19 /* CodableBundleExtension.swift */; };
+		A5A9F32C2697D9EC004AEA19 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32B2697D9EC004AEA19 /* FeaturedItemView.swift */; };
+		A5A9F32E2697E15B004AEA19 /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		A5A9F31F269707A1004AEA19 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		A5A9F32426972B8F004AEA19 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A5A9F3272697D801004AEA19 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		A5A9F3292697D84F004AEA19 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		A5A9F32B2697D9EC004AEA19 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 		A5A9F2E226969DEE004AEA19 /* touchDown */ = {
 			isa = PBXGroup;
 			children = (
+				A5A9F3262697D7EA004AEA19 /* Model */,
 				A5A9F31C2696A115004AEA19 /* Util */,
 				A5A9F31B2696A103004AEA19 /* Extension */,
 				A5A9F3182696A0D6004AEA19 /* View */,
@@ -191,6 +200,8 @@
 				A5A9F31F269707A1004AEA19 /* FooterView.swift */,
 				A5A9F32226970AAD004AEA19 /* NavigationBarView.swift */,
 				A5A9F32426972B8F004AEA19 /* LogoView.swift */,
+				A5A9F32B2697D9EC004AEA19 /* FeaturedItemView.swift */,
+				A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 		A5A9F31B2696A103004AEA19 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A5A9F3292697D84F004AEA19 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -208,6 +220,14 @@
 				A5A9F31D2696A127004AEA19 /* Constant.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		A5A9F3262697D7EA004AEA19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9F3272697D801004AEA19 /* PlayerModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,11 +363,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A9F32A2697D84F004AEA19 /* CodableBundleExtension.swift in Sources */,
+				A5A9F32E2697E15B004AEA19 /* FeatureTabView.swift in Sources */,
 				A5A9F2E626969DEE004AEA19 /* ContentView.swift in Sources */,
 				A5A9F32526972B8F004AEA19 /* LogoView.swift in Sources */,
 				A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */,
+				A5A9F32C2697D9EC004AEA19 /* FeaturedItemView.swift in Sources */,
 				A5A9F2E426969DEE004AEA19 /* touchDownApp.swift in Sources */,
 				A5A9F31E2696A127004AEA19 /* Constant.swift in Sources */,
+				A5A9F3282697D801004AEA19 /* PlayerModel.swift in Sources */,
 				A5A9F32326970AAD004AEA19 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
