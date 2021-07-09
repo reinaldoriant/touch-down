@@ -10,6 +10,7 @@ import SwiftUI
 struct NavigationBarView: View {
     // MARK : - Properties
     
+    @State private var isAnimated: Bool = false
     // MARK : - Body
     
     var body: some View {
@@ -20,7 +21,15 @@ struct NavigationBarView: View {
                     .foregroundColor(.black)
             })//: Button
             Spacer()
-            
+            LogoView()
+                .opacity(isAnimated ? 1 : 0)
+                .offset(x: 0, y: isAnimated ? 0 : -25)
+                .onAppear(perform: {
+                    withAnimation(.easeOut(duration: 0.5)){
+                        isAnimated.toggle()
+                    }
+                })
+            Spacer()
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                 ZStack {
                     Image(systemName: "cart")
