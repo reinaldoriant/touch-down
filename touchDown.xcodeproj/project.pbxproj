@@ -28,6 +28,7 @@
 		A5D462402697ED210071B495 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4623F2697ED210071B495 /* Category.swift */; };
 		A5D462422697EE030071B495 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462412697EE030071B495 /* CategoryItemView.swift */; };
 		A5D462442697EF420071B495 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462432697EF420071B495 /* CategoryGridView.swift */; };
+		A5D462462697F0900071B495 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462452697F0900071B495 /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		A5D4623F2697ED210071B495 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A5D462412697EE030071B495 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		A5D462432697EF420071B495 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		A5D462452697F0900071B495 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 				A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */,
 				A5D462412697EE030071B495 /* CategoryItemView.swift */,
 				A5D462432697EF420071B495 /* CategoryGridView.swift */,
+				A5D462452697F0900071B495 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				A5D462442697EF420071B495 /* CategoryGridView.swift in Sources */,
 				A5A9F31E2696A127004AEA19 /* Constant.swift in Sources */,
 				A5A9F3282697D801004AEA19 /* PlayerModel.swift in Sources */,
+				A5D462462697F0900071B495 /* SectionView.swift in Sources */,
 				A5D462422697EE030071B495 /* CategoryItemView.swift in Sources */,
 				A5A9F32326970AAD004AEA19 /* NavigationBarView.swift in Sources */,
 				A5D462402697ED210071B495 /* Category.swift in Sources */,

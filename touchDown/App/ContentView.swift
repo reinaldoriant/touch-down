@@ -22,13 +22,16 @@ struct ContentView: View {
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
                 ScrollView(.vertical, showsIndicators: false, content: {
-                  VStack(spacing: 0) {
-                    FeaturedTabView()
-                      .padding(.vertical, 16)
-                        .frame(height: 275)
-                    FooterView()
-                      .padding(.horizontal)
-                  } //: VSTACK
+                    VStack(spacing: 0) {
+                        FeaturedTabView()
+                            .padding(.vertical, 8)
+                            .frame(height: 275)
+                        
+                        CategoryGridView()
+                        
+                        FooterView()
+                            .padding(.horizontal)
+                    } //: VSTACK
                 }) //: SCROLL
             }//:Vstack
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
