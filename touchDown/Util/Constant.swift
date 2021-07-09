@@ -9,7 +9,7 @@ import SwiftUI
 
 // DATA
 
-let players: [Player] = Bundle.main.decode(file:"player.json")
+let players: [Player] = Bundle.main.decode(file: "player.json")
 
 // COLOR
 

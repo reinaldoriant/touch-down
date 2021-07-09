@@ -7,14 +7,13 @@
 
 import SwiftUI
 
-struct FeatureTabView: View {
+struct FeaturedTabView: View {
     var body: some View {
         TabView{
             ForEach(players){player in
                 FeaturedItemView(player: player)
                     .padding(.top,10)
                     .padding(.horizontal,15)
-                
             }
         }//: TAB
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
@@ -23,7 +22,7 @@ struct FeatureTabView: View {
 
 struct FeatureTabView_Previews: PreviewProvider {
     static var previews: some View {
-        FeatureTabView()
+        FeaturedTabView()
             .background(Color.gray)
     }
 }
