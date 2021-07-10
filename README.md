@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-android](https://forthebadge.com/images/badges/made-with-swift.svg)](https://www.apple.com/)
 
-🏉 🏈 Fruit-project is colorful encyclopedia of fruits you will learn many new features that Apple's engineers added to SwiftUI 2.0 framework.
+🏉 🏈  touch-down is application sample like a ecommerce to sell tools for american football players using SwiftUI 2.0 framework.
 
 ## Status :
 
