@@ -28,6 +28,7 @@
 		A5A9F32C2697D9EC004AEA19 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32B2697D9EC004AEA19 /* FeaturedItemView.swift */; };
 		A5A9F32E2697E15B004AEA19 /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */; };
 		A5AF77AD269968C6004C9837 /* QuantityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF77AC269968C6004C9837 /* QuantityDetailView.swift */; };
+		A5AF77AF269990C9004C9837 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AF77AE269990C9004C9837 /* AddToCartDetailView.swift */; };
 		A5D462402697ED210071B495 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4623F2697ED210071B495 /* Category.swift */; };
 		A5D462422697EE030071B495 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462412697EE030071B495 /* CategoryItemView.swift */; };
 		A5D462442697EF420071B495 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D462432697EF420071B495 /* CategoryGridView.swift */; };
@@ -89,6 +90,7 @@
 		A5A9F32B2697D9EC004AEA19 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		A5A9F32D2697E15B004AEA19 /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
 		A5AF77AC269968C6004C9837 /* QuantityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityDetailView.swift; sourceTree = "<group>"; };
+		A5AF77AE269990C9004C9837 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 		A5D4623F2697ED210071B495 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A5D462412697EE030071B495 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		A5D462432697EF420071B495 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				A5D46259269859890071B495 /* TopPartDetailVIew.swift */,
 				A586723E2698832600E9F461 /* RatingSizesDetailView.swift */,
 				A5AF77AC269968C6004C9837 /* QuantityDetailView.swift */,
+				A5AF77AE269990C9004C9837 /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				A5A9F320269707A1004AEA19 /* FooterView.swift in Sources */,
 				A5D4624C269844D10071B495 /* ProductItemView.swift in Sources */,
 				A5D462522698547E0071B495 /* BrandGridView.swift in Sources */,
+				A5AF77AF269990C9004C9837 /* AddToCartDetailView.swift in Sources */,
 				A5A9F32C2697D9EC004AEA19 /* FeaturedItemView.swift in Sources */,
 				A5D46254269856850071B495 /* ProductDetailView.swift in Sources */,
 				A5D4625A269859890071B495 /* TopPartDetailVIew.swift in Sources */,

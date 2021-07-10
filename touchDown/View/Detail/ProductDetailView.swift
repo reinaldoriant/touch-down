@@ -41,7 +41,8 @@ struct ProductDetailView: View {
                 QuantityDetailView()
                     .padding(.vertical, 10)
                 // ad to cart
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom,20)
             })//: VStack
             .padding(.horizontal)
             .background(
