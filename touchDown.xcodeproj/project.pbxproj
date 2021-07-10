@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A586723D26987B0700E9F461 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586723C26987B0700E9F461 /* CustomShape.swift */; };
+		A586723F2698832600E9F461 /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586723E2698832600E9F461 /* RatingSizesDetailView.swift */; };
 		A5A9F2E426969DEE004AEA19 /* touchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F2E326969DEE004AEA19 /* touchDownApp.swift */; };
 		A5A9F2E626969DEE004AEA19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A9F2E526969DEE004AEA19 /* ContentView.swift */; };
 		A5A9F2E826969DEF004AEA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A9F2E726969DEF004AEA19 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		A586723C26987B0700E9F461 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		A586723E2698832600E9F461 /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		A5A9F2E026969DEE004AEA19 /* touchDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A9F2E326969DEE004AEA19 /* touchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchDownApp.swift; sourceTree = "<group>"; };
 		A5A9F2E526969DEE004AEA19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				A5D46255269857F90071B495 /* NavigationBarDetailView.swift */,
 				A5D46257269859060071B495 /* HeaderDetailView.swift */,
 				A5D46259269859890071B495 /* TopPartDetailVIew.swift */,
+				A586723E2698832600E9F461 /* RatingSizesDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				A5D462462697F0900071B495 /* SectionView.swift in Sources */,
 				A5D46250269853E50071B495 /* BrandItemView.swift in Sources */,
 				A5D462422697EE030071B495 /* CategoryItemView.swift in Sources */,
+				A586723F2698832600E9F461 /* RatingSizesDetailView.swift in Sources */,
 				A5A9F32326970AAD004AEA19 /* NavigationBarView.swift in Sources */,
 				A586723D26987B0700E9F461 /* CustomShape.swift in Sources */,
 				A5D462402697ED210071B495 /* Category.swift in Sources */,
