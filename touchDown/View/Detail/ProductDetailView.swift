@@ -38,6 +38,8 @@ struct ProductDetailView: View {
                         .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                 })//:Scroll
                 //quantity+fav
+                QuantityDetailView()
+                    .padding(.vertical, 10)
                 // ad to cart
                 Spacer()
             })//: VStack
